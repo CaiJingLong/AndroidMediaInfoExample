@@ -84,6 +84,7 @@ class MainActivity : AppCompatActivity() {
             null,
             null,
             MediaStore.Images.Media.DATE_ADDED + " DESC"
+//            MediaStore.Images.Media.DATE_TAKEN + " DESC"
         )
 
         cursor?.use {
